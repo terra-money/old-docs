@@ -6,7 +6,7 @@ Welcome to the official documentation for Terra, a decentralized financial infra
 :gutter: 3
 
 :::{grid-item-card}
-:link: docs/develop/dapp/quick-start/README.html
+:link: docs/develop/terrain/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/Build_a_dApp_ver1.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
@@ -36,13 +36,13 @@ Learn about Terra stablecoins, Luna, rewards, staking, and governance.
 :::
 
 :::{grid-item-card}
-:link: docs/spacecamp/README.html
+:link: docs/full-node/run-a-full-terra-node/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/spacecamp_icon-01.svg
+```{image} /img/icon_node.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
-**Hackathon resources**  
-A helpful list for Spacecamp hackers.
+**Run a full node**  
+Contribute to the security of the network.
 :::
 
 :::{grid-item-card}
@@ -64,60 +64,47 @@ Discover Terra's vast network of dApps and exchanges.
 **Unearth Terra Core**  
 Learn about the modules at the heart of the protocol.
 :::
-
-:::{grid-item-card}
-:link: docs/full-node/run-a-full-terra-node/README.html
-:class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/icon_node.svg
-:class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
-```
-**Run a full node**  
-Contribute to the security of the network.
-:::
-
-:::{grid-item-card}
-:link: docs/develop/sdks/terra-js/README.html
-:class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/terra_js.svg
-:class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
-```
-**Terra.js**  
-Build with Javascript.
-:::
-
-:::{grid-item-card}
-:link: https://terra-money.github.io/terra.py/
-:class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/terra_sdk.svg
-:class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
-```
-**Terra.py**  
-Build with Python.
-:::
 :::::::
 
 
 ```{toctree}
+:caption: Learn
 :hidden:
-docs/learn/README
+docs/learn/protocol
+docs/learn/fees
+docs/learn/glossary
 ```
 
 ```{toctree}
+:caption: Wallet
+:hidden:
+docs/learn/terra-station/download/README
+docs/learn/terra-station/README
+docs/learn/bridges
+```
+
+```{toctree}
+:caption: Develop
 :hidden:
 docs/develop/README
+docs/develop/start
+```
+```{toctree}
+:caption: Environments
+:hidden:
+docs/develop/terrain/README
+docs/develop/wallet-provider/README
+docs/develop/localterra/README
+```
+```{toctree}
+:caption: Tools
+:hidden:
+docs/develop/terrad/README
+docs/develop/sdks/README
 ```
 
 ```{toctree}
+:caption: Full node
 :hidden:
 docs/full-node/README
-```
-
-```{toctree}
-:hidden:
-docs/ecosystem/README
-```
-
-```{toctree}
-:hidden:
-Spacecamp <docs/spacecamp/README.md>
 ```
