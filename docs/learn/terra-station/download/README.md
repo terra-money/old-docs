@@ -1,4 +1,4 @@
-# Download
+# Download Terra Station
 
 ```{toctree}
 :hidden:

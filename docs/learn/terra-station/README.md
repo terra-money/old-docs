@@ -1,4 +1,4 @@
-# Terra Station
+# Station wallet guides
 
 Terra station is the official wallet of the Terra blockchain. If this is your first time using Station, visit the [download tutorial](download/README.md) to create a wallet.
 
