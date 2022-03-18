@@ -19,7 +19,7 @@ Gas on Terra works differently than it works on other blockchains:
 - Unused gas is not refunded.
 - Transactions are not queued based on gas amounts, but in the order received.
 
-For an in-depth explanation of how gas fees are calculated, visit the [terrad reference](../develop/how-to/terrad/using-terrad.md#fees) page.
+For an in-depth explanation of how gas fees are calculated, visit the [terrad reference](../develop/terrad/using-terrad.md#fees) page.
 
 To view current gas rates in your browser, visit the [gas rates](https://fcd.terra.dev/v1/txs/gas_prices) FCD page.
 
@@ -45,3 +45,5 @@ Every block, spread fees are sent to the [Oracle reward pool] and [dispersed to 
 ## Changes to fees
 
 On January 6th, 2022, the Terra community passed [proposal 172](https://station.terra.money/proposal/172), which was a parameter change proposal to change the stability fee tax rate to zero. This tax used to be charged on any transaction using Terra stablecoins, excluding market swaps. This fee is no longer charged.
+
+

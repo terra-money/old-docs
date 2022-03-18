@@ -5,10 +5,10 @@
 :hidden:
 :maxdepth: 1
 ../learn/terra-station/README
-Terrain Quickstart<../develop/dapp/quick-start/README>
-../develop/dapp/quick-start/using-terrain-localterra
-../develop/dapp/quick-start/using-terrain-testnet
-../develop/dapp/smart-contracts/README
+Terrain Quickstart<../develop/terrain/README>
+../develop/terrain/using-terrain-localterra
+../develop/terrain/using-terrain-testnet
+../develop/how-to/smart-contracts/README
 ../develop/endpoints.md
 ../develop/module-specifications/README
 ../develop/sdks/terra-js/README
@@ -24,7 +24,7 @@ Block explorers <../ecosystem/integrations>
 
 
 :::{grid-item-card}
-:link: ../develop/dapp/quick-start/README.html
+:link: ../develop/terrain/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/terrain.png
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
@@ -33,7 +33,7 @@ Block explorers <../ecosystem/integrations>
 :::
 
 :::{grid-item-card}
-:link: ../develop/dapp/quick-start/using-terrain-localterra.html
+:link: ../develop/terrain/using-terrain-localterra.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/LocalTerra.svg
 :class: sd-width-auto sd-pb-2 sd-animate-grow50-rot20
@@ -42,7 +42,7 @@ Block explorers <../ecosystem/integrations>
 :::
 
 :::{grid-item-card}
-:link: ../develop/dapp/quick-start/using-terrain-testnet.html
+:link: ../develop/terrain/using-terrain-testnet.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/icon_node.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
@@ -51,12 +51,12 @@ Block explorers <../ecosystem/integrations>
 :::
 
 :::{grid-item-card}
-:link: ../develop/dapp/smart-contracts/README.html
+:link: ../develop/how-to/smart-contracts/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/Build_a_dApp_ver2.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
-**In-depth dApp guide**  
+**Smart contract guide**  
 :::
 
 :::{grid-item-card}

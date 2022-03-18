@@ -7,7 +7,7 @@ For more information on setting up a validator, see [additional resources](READM
 ## Prerequisites
 
 - You have completed [how to run a full Terra node](../run-a-full-terra-node/README.md), which outlines how to install, connect, and configure a node.
-- You are familiar with [terrad](../../develop/how-to/terrad/README.md).
+- You are familiar with [terrad](../../develop/terrad/README.md).
 - you have read through [the validator FAQ](faq.md)
 
 ## 1. Retrieve your PubKey

@@ -34,7 +34,7 @@ reference/README
 :::
 
 :::{grid-item-card}
-:link: ../develop/how-to/terrad/README.html
+:link: ../develop/terrad/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/Terrad.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
@@ -43,7 +43,7 @@ reference/README
 :::
 
 :::{grid-item-card}
-:link: ../develop/how-to/localterra/README.html
+:link: ../develop/localterra/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/LocalTerra.svg
 :class: sd-width-auto sd-pb-2 sd-animate-grow50-rot20
