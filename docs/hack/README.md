@@ -1,4 +1,4 @@
-# Hackathon Resources <img src="/img/spacecamp_icon-02.svg" class="sd-pb-2" height="100px">
+# Hackathon resources <img src="/img/spacecamp_icon-02.svg" class="sd-pb-2" height="100px">
 
 
 ```{toctree}
