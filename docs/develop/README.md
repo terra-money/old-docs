@@ -1,13 +1,13 @@
 # Develop
 
-Welcome to the Terra developer documentation. If this is your first time building on Terra and you want to set up your environment, use the [quickstart guide](dapp/quick-start/README.md). Use the [how-to guides](how-to/README.md) to learn about using [`terrad`](how-to/terrad/README.md), the command line interface and node daemon for the Terra network, and [LocalTerra](how-to/localterra/README.md), a local testing environment. [Terra.js](sdks/terra-js/README.md) and [Terra.py](https://terra-money.github.io/terra.py/) are the Javascript and Python SDKs for Terra.
+Welcome to the Terra developer documentation. If this is your first time building on Terra and you want to set up your environment, use the [quickstart guide](dapp/terrain/README.md). Use the [how-to guides](how-guides/README.md learn about using [`terrad`](how-terrad/README.mdhe command line interface and node daemon for the Terra network, and [LocalTerra](how-localterra/README.md local testing environment. [Terra.js](sdksterra-js/README.mdd [Terra.py](https://terra-money.github.io/terra.py/) are the Javascript and Python SDKs for Terra.
 
 ```{toctree}
 :hidden:
 get-started
 tools
-dapp/README
-how-to/README.md
+terrain/README
+localterra/README
 endpoints.md
 open-source.md
 module-specifications/README

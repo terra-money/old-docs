@@ -15,19 +15,21 @@ Follow the steps below to get started with Terrain and build your own dApp!
 
 Terrain is a user-friendly development environment for developing smart contracts. Terrain makes it easy to create smart contract templates, deploy them to the Terra blockchain, and connect them to a frontend app.
 
-Follow the [Terrain setup tutorial](./dapp/quick-start/initial-setup.md) to get started using Terrain. 
+Follow the [Terrain setup tutorial](terrain/initial-setup.md) to get started using Terrain. 
 
 ### 2. Download LocalTerra and start building
 
-LocalTerra is a scaled-down Terra blockchain that allows you to test your dApp locally. LocalTerra provides a single validator node and [10 configurable wallet accounts](./how-to/localterra/accounts.md). 
+LocalTerra is a mini Terra blockchain that runs locally on your machine. You can use Terrain as a test environment for your projects. 
 
-Follow the [Terrain with LocalTerra tutorial](./dapp/quick-start/using-terrain-localterra.md) to start using Terrain and create a simple counter app. 
+When you start LocalTerra, you’ll see a single validator writing transactions to your mini blockchain. LocalTerra comes with [10 configurable wallet accounts](localterra/accounts.md) to make testing easier. 
+
+Follow the [Terrain with LocalTerra tutorial](terrain/using-terrain-localterra.md) to start using Terrain and create a simple counter app. 
 
 ### 3. Mint an NFT
 
 Now that you are familiar with Terrain and LocalTerra, mint an NFT with Terrain. 
 
-The [NFT minting](./dapp/quick-start/mint-an-nft.md) tutorial walks you through the creation of an NFT minting application using the dApp scaffolding and front end provided by Terrain. 
+The [NFT minting](terrain/mint-an-nft.md) tutorial walks you through the creation of an NFT minting application, complete with Terrain app scaffolding, smart contract usage, and a front end. You'll even get to mint your own NFT!
 
 :::{admonition} Terra Academy
 :class: tip
@@ -42,7 +44,7 @@ Now you can dive into the other tools in the Terra Development Suite:
 
 ### Terra<span/>.js
 
-Use Terra<span/>.js to create bots, power NFT mints, and for all-purpose back end services. Follow the [Terra.js tutorial](./sdks/terra-js/getting-started.md) to get started.
+If you are familiar with Javascript, use Terra<span/>.js to create bots, power NFT mints, and for all-purpose back end services. Follow the [Terra.js tutorial](terra-js/getting-started.md) to get started.
 
 ### Terra<span/>.py
 
@@ -50,7 +52,7 @@ Use Terra<span/>.py for on-chain analytics, Jupyter Notebooks, data processing, 
  
 ### Wallet Provider and Templates: 
 
-If you have a back end for your app and want a front end to connect to Terra Station, use Wallet provider and Terra Templates. Follow the [Wallet Provider tutorial](./sdks/wallet-provider/wallet-provider-tutorial.md) to get started. 
+If you have a back end for your app and want a front end to connect to Terra Station, use Wallet provider and Terra Templates. Follow the [Wallet Provider tutorial](wallet-provider/wallet-provider-tutorial.md) to get started. 
 
 ### Other Tools
 
@@ -58,7 +60,7 @@ Terra also provides other tools for building:
 
 - [Finder](https://finder.terra.money): Terra’s multi-purpose block explorer. 
 - [Faucet](https://faucet.terra.money): Get tokens sent to your testnet address. 
-- [`terrad`](./how-to/terrad/install-terrad.md): the node daemon and command line interface that connects to the Terra network. 
+- [`terrad`](terrad/install-terrad.md): the node daemon and command line interface that connects to the Terra network. 
 
 ## Resources
 

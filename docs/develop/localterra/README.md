@@ -2,6 +2,11 @@
 
 LocalTerra is a complete Terra testnet and ecosystem containerized with Docker and orchestrated with a simple `docker-compose` file. It simplifies the way smart-contract developers test their contracts in a sandbox before they deploy them on a testnet or mainnet.
 
+:::{admonition} LocalTerra and Terrain
+:class: caution
+If you already have Terrain installed, visit the [Terrain and LocalTerra](../terrain/using-terrain-localterra.md) guide to install LocalTerra. 
+:::
+
 LocalTerra comes preconfigured with opinionated, sensible defaults for standard testing environments. If other projects mention testing on LocalTerra, they are referring to the settings defined in this guide.
 
 LocalTerra has the following advantages over a public testnet:
