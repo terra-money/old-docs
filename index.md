@@ -99,17 +99,25 @@ Build with Python.
 
 ```{toctree}
 :hidden:
-docs/learn/README
+:caption: Learn
+docs/learn/protocol.md
+docs/learn/terra-station/README.md
 ```
 
 ```{toctree}
 :hidden:
-docs/develop/README
+:caption: Develop
+docs/develop/get-started.md
+docs/develop/tools.md
+docs/develop/dev-suite.md
+docs/develop/cli-and-tools.md
+docs/develop/reference/README.md
 ```
 
 ```{toctree}
 :hidden:
-docs/full-node/README
+:caption: Full node
+docs/full-node/README.md
 ```
 
 ```{toctree}

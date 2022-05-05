@@ -1,4 +1,4 @@
-# CLI and tools
+# Daemon and tools
 
 ```{toctree}
 terrad/README.md
