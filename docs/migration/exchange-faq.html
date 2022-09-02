@@ -1,0 +1,2120 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terra Migration FAQ &#8212; Terra Docs  documentation</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet">
+  <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-book-theme.css?digest=84ace793992934648b4de8eed757e5a2" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script src="../../_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="../../_static/custom.js"></script>
+    <link rel="shortcut icon" href="../../_static/docs_favicon.ico"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="dApp migration guide" href="migrating-to-terra2.html" />
+    <link rel="prev" title="Exchange migration guide" href="exchange-migration.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<div class="col-12 col-md-3 bd-sidebar site-navigation " id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../../_static/docs_logo.svg" class="logo" alt="logo">
+      
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../learn/README.html">
+   Learn
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../learn/terra-station/README.html">
+     Terra Station
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+    <label for="toctree-checkbox-2">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3 has-children">
+      <a class="reference internal" href="../learn/terra-station/download/README.html">
+       Download
+      </a>
+      <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+      <label for="toctree-checkbox-3">
+       <i class="fas fa-chevron-down">
+       </i>
+      </label>
+      <ul>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../learn/terra-station/download/terra-station-desktop.html">
+         Terra Station desktop
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../learn/terra-station/download/terra-station-chrome.html">
+         Terra Station Chrome extension
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../learn/terra-station/download/terra-station-firefox.html">
+         Terra Station Firefox extension
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../learn/terra-station/download/terra-station-mobile.html">
+         Terra Station mobile
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../learn/terra-station/wallet.html">
+       Wallet
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../learn/terra-station/networks.html">
+       Switch networks
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../learn/terra-station/send.html">
+       Send
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../learn/terra-station/staking.html">
+       Manage staking
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../learn/terra-station/vesting.html">
+       Manage vesting
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../learn/terra-station/governance.html">
+       Governance
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../learn/terra-station/multisig.html">
+       Multisig wallets
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../learn/terra-station/contracts.html">
+       Contract
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../learn/terra-station/testnet.html">
+       Testnet
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../learn/terra-station/keplr.html">
+       Connect your Station Wallet to Keplr
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../learn/protocol.html">
+     About Terra
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../learn/fees.html">
+     Fees on Terra
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../learn/glossary.html">
+     Glossary
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../learn/assets.html">
+     Terra Brand Assets
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../develop/README.html">
+   Develop
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../develop/get-started.html">
+     Get started
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../develop/which-tools.html">
+     Which tools to use
+    </a>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../develop/developer-tools.html">
+     Tools
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+    <label for="toctree-checkbox-5">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3 has-children">
+      <a class="reference internal" href="../develop/terrain/README.html">
+       Terrain
+      </a>
+      <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+      <label for="toctree-checkbox-6">
+       <i class="fas fa-chevron-down">
+       </i>
+      </label>
+      <ul>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrain/initial-setup.html">
+         Terrain initial setup
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrain/using-terrain-testnet.html">
+         Use Terrain with testnet
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrain/using-terrain-localterra.html">
+         Use Terrain with LocalTerra
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrain/mint-an-nft.html">
+         Mint an NFT using Terrain
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrain/contract-migration.html">
+         Migrating CosmWasm contracts on Terra
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrain/cw20-factory.html">
+         Build a CW20 token factory
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toctree-l3 has-children">
+      <a class="reference internal" href="../develop/localterra/README.html">
+       LocalTerra
+      </a>
+      <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+      <label for="toctree-checkbox-7">
+       <i class="fas fa-chevron-down">
+       </i>
+      </label>
+      <ul>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/localterra/install-localterra.html">
+         Install LocalTerra
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/localterra/configure.html">
+         Configure LocalTerra
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/localterra/integrations.html">
+         Integrations
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/localterra/contracts.html">
+         Contracts
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/localterra/accounts.html">
+         Accounts
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toctree-l3 has-children">
+      <a class="reference internal" href="../develop/wallet-provider/README.html">
+       Wallet Provider
+      </a>
+      <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
+      <label for="toctree-checkbox-8">
+       <i class="fas fa-chevron-down">
+       </i>
+      </label>
+      <ul>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/wallet-provider/wallet-provider-tutorial.html">
+         Get started with Wallet Provider
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/wallet-provider/station-extension.html">
+         Terra Station extension
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/wallet-provider/station-mobile.html">
+         Terra Station Mobile App
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/wallet-provider/sign-bytes.html">
+         Signing Bytes
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toctree-l3 has-children">
+      <a class="reference internal" href="../develop/terra-js/README.html">
+       Terra.js
+      </a>
+      <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
+      <label for="toctree-checkbox-9">
+       <i class="fas fa-chevron-down">
+       </i>
+      </label>
+      <ul>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terra-js/getting-started.html">
+         Get started with Terra.js
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terra-js/terra-classic.html">
+         Using Terra Classic
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terra-js/common-examples.html">
+         Common examples guide
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terra-js/add-modules.html">
+         Add modules
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terra-js/coin-and-coins.html">
+         Coin and Coins
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terra-js/fees.html">
+         Fees
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terra-js/ibc.html">
+         IBC Transfers
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terra-js/keys.html">
+         Keys
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terra-js/make-a-connection.html">
+         Make a connection
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terra-js/msgAuthorization.html">
+         MsgAuthorization
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terra-js/multisend.html">
+         MsgSend
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terra-js/numeric.html">
+         Numeric
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terra-js/query-data.html">
+         Query data
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terra-js/smart-contracts.html">
+         Smart contracts
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terra-js/transactions.html">
+         Transactions
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terra-js/wallets.html">
+         Wallets
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terra-js/Websockets.html">
+         Websockets
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/terra-py/get-started-py.html">
+       Terra
+       <span>
+       </span>
+       .py
+      </a>
+     </li>
+     <li class="toctree-l3 has-children">
+      <a class="reference internal" href="../develop/terrad/README.html">
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         terrad
+        </span>
+       </code>
+      </a>
+      <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
+      <label for="toctree-checkbox-10">
+       <i class="fas fa-chevron-down">
+       </i>
+      </label>
+      <ul>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrad/install-terrad.html">
+         Install
+         <code class="docutils literal notranslate">
+          <span class="pre">
+           terrad
+          </span>
+         </code>
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrad/terrad-mac.html">
+         Install
+         <code class="docutils literal notranslate">
+          <span class="pre">
+           terrad
+          </span>
+         </code>
+         for Mac (Intel or M1)
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrad/using-terrad.html">
+         Using
+         <code class="docutils literal notranslate">
+          <span class="pre">
+           terrad
+          </span>
+         </code>
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrad/commands.html">
+         Commands
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrad/subcommands.html">
+         Subcommands
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference external" href="https://finder.terra.money">
+       Block explorer
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference external" href="https://faucet.terra.money">
+       Faucet
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../develop/guides/README.html">
+     Guides
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/>
+    <label for="toctree-checkbox-11">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/get-started.html">
+       Get started
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/which-tools.html">
+       Which tools to use
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/terrain/initial-setup.html">
+       Terrain initial setup
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/terrain/using-terrain-localterra.html">
+       Use Terrain with LocalTerra
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/terrain/mint-an-nft.html">
+       Mint an NFT using Terrain
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/terrain/cw20-factory.html">
+       Build a CW20 token factory
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/guides/tictactoe.html">
+       Tic-tac-toe app example
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/terrain/contract-migration.html">
+       Migrating CosmWasm contracts on Terra
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/terra-js/getting-started.html">
+       Get started with Terra.js
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/terra-py/get-started-py.html">
+       Terra
+       <span>
+       </span>
+       .py
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/wallet-provider/wallet-provider-tutorial.html">
+       Get started with Wallet Provider
+      </a>
+     </li>
+     <li class="toctree-l3 has-children">
+      <a class="reference internal" href="../develop/localterra/README.html">
+       LocalTerra
+      </a>
+      <input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/>
+      <label for="toctree-checkbox-12">
+       <i class="fas fa-chevron-down">
+       </i>
+      </label>
+      <ul>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/localterra/install-localterra.html">
+         Install LocalTerra
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/localterra/configure.html">
+         Configure LocalTerra
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/localterra/integrations.html">
+         Integrations
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/localterra/contracts.html">
+         Contracts
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/localterra/accounts.html">
+         Accounts
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/guides/sign-with-multisig.html">
+       Sign with a multisig account
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/guides/start-lcd.html">
+       Start the light client daemon (LCD)
+      </a>
+     </li>
+     <li class="toctree-l3 has-children">
+      <a class="reference internal" href="../develop/guides/smart-contracts/README.html">
+       Smart contract guide
+      </a>
+      <input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/>
+      <label for="toctree-checkbox-13">
+       <i class="fas fa-chevron-down">
+       </i>
+      </label>
+      <ul>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/guides/smart-contracts/build-terra-dapp.html">
+         Build a simple Terra dApp
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/guides/smart-contracts/set-up-local-environment.html">
+         Environment Setup
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/guides/smart-contracts/write-smart-contract.html">
+         Writing the Contract
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/guides/smart-contracts/interact-with-smart-contract.html">
+         Interacting with the Contract
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/guides/smart-contracts/manage-cw20-tokens.html">
+         CW20 Tokens
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/guides/smart-contracts/upgrade-cosmwasm.html">
+         Upgrade Smart Contracts to Cosmwasm 1.0.0
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toctree-l3 has-children">
+      <a class="reference internal" href="../develop/terrad/README.html">
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         terrad
+        </span>
+       </code>
+      </a>
+      <input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" type="checkbox"/>
+      <label for="toctree-checkbox-14">
+       <i class="fas fa-chevron-down">
+       </i>
+      </label>
+      <ul>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrad/install-terrad.html">
+         Install
+         <code class="docutils literal notranslate">
+          <span class="pre">
+           terrad
+          </span>
+         </code>
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrad/terrad-mac.html">
+         Install
+         <code class="docutils literal notranslate">
+          <span class="pre">
+           terrad
+          </span>
+         </code>
+         for Mac (Intel or M1)
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrad/using-terrad.html">
+         Using
+         <code class="docutils literal notranslate">
+          <span class="pre">
+           terrad
+          </span>
+         </code>
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrad/commands.html">
+         Commands
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrad/subcommands.html">
+         Subcommands
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../develop/module-specifications/README.html">
+     Terra Core modules
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-15" name="toctree-checkbox-15" type="checkbox"/>
+    <label for="toctree-checkbox-15">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/module-specifications/spec-auth.html">
+       Auth
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/module-specifications/spec-authz.html">
+       AuthZ
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/module-specifications/spec-bank.html">
+       Bank
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/module-specifications/spec-capability.html">
+       Capability
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/module-specifications/spec-crisis.html">
+       Crisis
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/module-specifications/spec-distribution.html">
+       Distribution
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/module-specifications/spec-evidence.html">
+       Evidence
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/module-specifications/spec-feegrant.html">
+       Fee grant
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/module-specifications/spec-governance.html">
+       Governance
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/module-specifications/spec-mint.html">
+       Mint
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/module-specifications/spec-params.html">
+       Params
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/module-specifications/spec-slashing.html">
+       Slashing
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/module-specifications/spec-staking.html">
+       Staking
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/module-specifications/spec-wasm.html">
+       WASM
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../develop/open-source.html">
+     Open source contract comparison
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../develop/endpoints.html">
+     Public and private endpoints
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../develop/vesting.html">
+     How vesting accounts work
+    </a>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../develop/reference/README.html">
+     Dev reference
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-16" name="toctree-checkbox-16" type="checkbox"/>
+    <label for="toctree-checkbox-16">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/resources.html">
+       Developer resources
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference external" href="https://phoenix-lcd.terra.dev/swagger/">
+       Terra REST API
+      </a>
+     </li>
+     <li class="toctree-l3 has-children">
+      <a class="reference internal" href="../develop/terrad/README.html">
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         terrad
+        </span>
+       </code>
+      </a>
+      <input class="toctree-checkbox" id="toctree-checkbox-17" name="toctree-checkbox-17" type="checkbox"/>
+      <label for="toctree-checkbox-17">
+       <i class="fas fa-chevron-down">
+       </i>
+      </label>
+      <ul>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrad/install-terrad.html">
+         Install
+         <code class="docutils literal notranslate">
+          <span class="pre">
+           terrad
+          </span>
+         </code>
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrad/terrad-mac.html">
+         Install
+         <code class="docutils literal notranslate">
+          <span class="pre">
+           terrad
+          </span>
+         </code>
+         for Mac (Intel or M1)
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrad/using-terrad.html">
+         Using
+         <code class="docutils literal notranslate">
+          <span class="pre">
+           terrad
+          </span>
+         </code>
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrad/commands.html">
+         Commands
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrad/subcommands.html">
+         Subcommands
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/endpoints.html">
+       Public and private endpoints
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../develop/resources.html">
+     Developer resources
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../full-node/README.html">
+   Full node
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-18" name="toctree-checkbox-18" type="checkbox"/>
+  <label for="toctree-checkbox-18">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../full-node/run-a-full-terra-node/README.html">
+     Run a full Terra node
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-19" name="toctree-checkbox-19" type="checkbox"/>
+    <label for="toctree-checkbox-19">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../full-node/run-a-full-terra-node/system-config.html">
+       System Configuration
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../full-node/run-a-full-terra-node/build-terra-core.html">
+       Build Terra core
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../full-node/run-a-full-terra-node/set-up-production.html">
+       Set up a production environment
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../full-node/run-a-full-terra-node/configure-general-settings.html">
+       Configure general settings
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../full-node/run-a-full-terra-node/join-a-network.html">
+       Join a network
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../full-node/run-a-full-terra-node/sync.html">
+       Sync
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../full-node/run-a-full-terra-node/updates-and-additional.html">
+       Updates and additional settings
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../full-node/run-a-full-terra-node/troubleshoot.html">
+       Reset and troubleshooting
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../full-node/manage-a-terra-validator/README.html">
+     Manage a validator
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-20" name="toctree-checkbox-20" type="checkbox"/>
+    <label for="toctree-checkbox-20">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../full-node/manage-a-terra-validator/court-delegations.html">
+       Court delegations
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../full-node/manage-a-terra-validator/faq.html">
+       Validator FAQ
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../full-node/manage-a-terra-validator/implement-security.html">
+       Implement security practices
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../full-node/manage-a-terra-validator/set-up-validator.html">
+       Register a validator
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../full-node/manage-a-terra-validator/troubleshoot-validator-problems.html">
+       Troubleshoot validator problems
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../full-node/manage-a-terra-validator/restore.html">
+       Restore a validator
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../full-node/reference/README.html">
+     Node reference
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-21" name="toctree-checkbox-21" type="checkbox"/>
+    <label for="toctree-checkbox-21">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference external" href="https://phoenix-lcd.terra.dev/swagger/">
+       Terra REST API
+      </a>
+     </li>
+     <li class="toctree-l3 has-children">
+      <a class="reference internal" href="../develop/terrad/README.html">
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         terrad
+        </span>
+       </code>
+      </a>
+      <input class="toctree-checkbox" id="toctree-checkbox-22" name="toctree-checkbox-22" type="checkbox"/>
+      <label for="toctree-checkbox-22">
+       <i class="fas fa-chevron-down">
+       </i>
+      </label>
+      <ul>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrad/install-terrad.html">
+         Install
+         <code class="docutils literal notranslate">
+          <span class="pre">
+           terrad
+          </span>
+         </code>
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrad/terrad-mac.html">
+         Install
+         <code class="docutils literal notranslate">
+          <span class="pre">
+           terrad
+          </span>
+         </code>
+         for Mac (Intel or M1)
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrad/using-terrad.html">
+         Using
+         <code class="docutils literal notranslate">
+          <span class="pre">
+           terrad
+          </span>
+         </code>
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrad/commands.html">
+         Commands
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../develop/terrad/subcommands.html">
+         Subcommands
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/endpoints.html">
+       Public and private endpoints
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../develop/guides/start-lcd.html">
+       Start the light client daemon (LCD)
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../develop/endpoints.html">
+     Public and private endpoints
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../full-node/resources.html">
+     Full node resources
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="README.html">
+   Terra migration guides
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-23" name="toctree-checkbox-23" type="checkbox"/>
+  <label for="toctree-checkbox-23">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="exchange-migration.html">
+     Exchange migration guide
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Terra Migration FAQ
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="migrating-to-terra2.html">
+     dApp migration guide
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../develop/guides/smart-contracts/upgrade-cosmwasm.html">
+     Upgrade Smart Contracts to Cosmwasm 1.0.0
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="validator-gentx.html">
+     Validator migration guide
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+</div>
+
+
+          
+
+
+          
+<!-- This is an invisible pixel that we watch to see if we've scrolled. -->
+<div class="sbt-scroll-pixel-helper"></div>
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            <div class="topbar-left">
+                
+                <label class="nav-toggle-button" for="__navigation">
+                    <div class="visually-hidden">Toggle navigation</div>
+                    <i class="fas fa-bars"></i>
+                </label>
+                
+            </div>
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/docs/migration/exchange-faq.md.txt"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/terra-money/docs"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/terra-money/docs/issues/new?title=Issue%20on%20page%20%2Fdocs/migration/exchange-faq.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#airdrop">
+   Airdrop
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#is-bonded-luna-included-in-the-post-attack-luna-snapshot">
+     Is bonded LUNA included in the post-attack LUNA snapshot?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-are-the-heights-for-calculating-the-airdrop">
+     What are the heights for calculating the airdrop?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#does-the-luna-amount-of-the-new-chain-drop-the-initialization-amount-at-height-1">
+     Does the Luna amount of the new chain drop the initialization amount at height 1?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#where-can-i-find-out-more-about-the-airdrop">
+     Where can I find out more about the airdrop?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#vesting">
+   Vesting
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-does-vesting-work">
+     How does vesting work?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-can-i-see-my-luna-that-is-still-locked-in-vesting">
+     How can I see my Luna that is still locked in vesting?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#is-my-vesting-luna-staked">
+     Is my vesting Luna staked?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#can-i-redelegate-my-vesting-luna">
+     Can I redelegate my vesting Luna?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-can-i-see-how-much-luna-i-was-airdropped-in-total-including-vesting">
+     How can I see how much Luna I was airdropped in total, including vesting?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-can-i-calculate-my-original-vesting">
+     How can I calculate my original vesting?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-can-i-view-my-spendable-unlocked-luna">
+     How can I view my spendable (unlocked) Luna?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#txs">
+   Txs
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#is-there-any-change-in-the-offline-transaction-construction-function">
+     Is there any change in the offline transaction construction function?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#is-there-any-change-to-the-broadcast-interface-for-terra-classic-or-terra">
+     Is there any change to the broadcast interface for Terra Classic or Terra?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#has-the-transaction-structure-changed">
+     Has the transaction structure changed?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#is-there-any-change-in-the-calculation-of-the-handling-fee">
+     Is there any change in the calculation of the handling fee?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#addresses-and-accounts">
+   Addresses and accounts
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#are-the-chain-address-formats-the-same-for-both-chains">
+     Are the chain address formats the same for both chains?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#are-there-any-changes-to-the-address-formats">
+     Are there any changes to the address formats?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#do-account-numbers-need-to-be-reset">
+     Do account numbers need to be reset?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-are-the-contract-addresses-for-luna-and-lunc">
+     What are the contract addresses for LUNA and LUNC?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#block-and-heights">
+   Block and heights
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#is-there-any-change-in-the-block-structure">
+     Is there any change in the block structure?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-block-height-does-the-terra-classic-chain-start-at">
+     What block height does the terra classic chain start at?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-height-does-the-new-chain-start-at">
+     What height does the new chain start at?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#can-you-clarify-the-differences-between-the-block-and-transaction-parsing-logics-of-classic-vs-new-luna">
+     Can you clarify the differences between the block and transaction parsing logics of classic vs new Luna?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#upgrades">
+   Upgrades
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#does-terra-js-need-to-be-upgraded">
+     Does Terra.js need to be upgraded?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#are-there-any-changes-to-the-api-interface">
+     Are there any changes to the API interface?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#will-there-be-an-lunc-node-upgrade-release-on-05-27">
+     Will there be an LUNC node upgrade release on 05/27?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#luna-and-tokens">
+   Luna and tokens
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#can-the-initial-luna-balance-of-an-address-be-resolved-through-the-genesis-file">
+     Can the initial Luna balance of an address be resolved through the genesis file?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#will-the-new-chain-use-micro-denominations">
+     Will The new chain use micro-denominations?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#will-the-new-chain-still-support-other-tokens-such-as-anc">
+     Will the new chain still support other tokens, such as ANC?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#multisig">
+   Multisig
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#i-want-to-ignore-multisig-txs-could-you-share-a-mainnet-example-of-this">
+     I want to ignore multisig txs, could you share a mainnet example of this?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-do-i-get-the-threshold-number-of-signatures">
+     How do I get the “threshold number of signatures”?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#is-the-type-of-multisig-tx-always-bank-msgsend">
+     Is the “@type” of multisig tx always “bank/MsgSend”?
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Terra Migration FAQ</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#airdrop">
+   Airdrop
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#is-bonded-luna-included-in-the-post-attack-luna-snapshot">
+     Is bonded LUNA included in the post-attack LUNA snapshot?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-are-the-heights-for-calculating-the-airdrop">
+     What are the heights for calculating the airdrop?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#does-the-luna-amount-of-the-new-chain-drop-the-initialization-amount-at-height-1">
+     Does the Luna amount of the new chain drop the initialization amount at height 1?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#where-can-i-find-out-more-about-the-airdrop">
+     Where can I find out more about the airdrop?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#vesting">
+   Vesting
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-does-vesting-work">
+     How does vesting work?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-can-i-see-my-luna-that-is-still-locked-in-vesting">
+     How can I see my Luna that is still locked in vesting?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#is-my-vesting-luna-staked">
+     Is my vesting Luna staked?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#can-i-redelegate-my-vesting-luna">
+     Can I redelegate my vesting Luna?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-can-i-see-how-much-luna-i-was-airdropped-in-total-including-vesting">
+     How can I see how much Luna I was airdropped in total, including vesting?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-can-i-calculate-my-original-vesting">
+     How can I calculate my original vesting?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-can-i-view-my-spendable-unlocked-luna">
+     How can I view my spendable (unlocked) Luna?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#txs">
+   Txs
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#is-there-any-change-in-the-offline-transaction-construction-function">
+     Is there any change in the offline transaction construction function?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#is-there-any-change-to-the-broadcast-interface-for-terra-classic-or-terra">
+     Is there any change to the broadcast interface for Terra Classic or Terra?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#has-the-transaction-structure-changed">
+     Has the transaction structure changed?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#is-there-any-change-in-the-calculation-of-the-handling-fee">
+     Is there any change in the calculation of the handling fee?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#addresses-and-accounts">
+   Addresses and accounts
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#are-the-chain-address-formats-the-same-for-both-chains">
+     Are the chain address formats the same for both chains?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#are-there-any-changes-to-the-address-formats">
+     Are there any changes to the address formats?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#do-account-numbers-need-to-be-reset">
+     Do account numbers need to be reset?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-are-the-contract-addresses-for-luna-and-lunc">
+     What are the contract addresses for LUNA and LUNC?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#block-and-heights">
+   Block and heights
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#is-there-any-change-in-the-block-structure">
+     Is there any change in the block structure?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-block-height-does-the-terra-classic-chain-start-at">
+     What block height does the terra classic chain start at?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-height-does-the-new-chain-start-at">
+     What height does the new chain start at?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#can-you-clarify-the-differences-between-the-block-and-transaction-parsing-logics-of-classic-vs-new-luna">
+     Can you clarify the differences between the block and transaction parsing logics of classic vs new Luna?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#upgrades">
+   Upgrades
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#does-terra-js-need-to-be-upgraded">
+     Does Terra.js need to be upgraded?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#are-there-any-changes-to-the-api-interface">
+     Are there any changes to the API interface?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#will-there-be-an-lunc-node-upgrade-release-on-05-27">
+     Will there be an LUNC node upgrade release on 05/27?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#luna-and-tokens">
+   Luna and tokens
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#can-the-initial-luna-balance-of-an-address-be-resolved-through-the-genesis-file">
+     Can the initial Luna balance of an address be resolved through the genesis file?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#will-the-new-chain-use-micro-denominations">
+     Will The new chain use micro-denominations?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#will-the-new-chain-still-support-other-tokens-such-as-anc">
+     Will the new chain still support other tokens, such as ANC?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#multisig">
+   Multisig
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#i-want-to-ignore-multisig-txs-could-you-share-a-mainnet-example-of-this">
+     I want to ignore multisig txs, could you share a mainnet example of this?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-do-i-get-the-threshold-number-of-signatures">
+     How do I get the “threshold number of signatures”?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#is-the-type-of-multisig-tx-always-bank-msgsend">
+     Is the “@type” of multisig tx always “bank/MsgSend”?
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="terra-migration-faq">
+<h1>Terra Migration FAQ<a class="headerlink" href="#terra-migration-faq" title="Permalink to this headline">¶</a></h1>
+<p>This is a list of frequently asked questions. It will evolve as new questions arise.</p>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#airdrop" id="id1">Airdrop</a></p>
+<ul>
+<li><p><a class="reference internal" href="#is-bonded-luna-included-in-the-post-attack-luna-snapshot" id="id2">Is bonded LUNA included in the post-attack LUNA snapshot?</a></p></li>
+<li><p><a class="reference internal" href="#what-are-the-heights-for-calculating-the-airdrop" id="id3">What are the heights for calculating the airdrop?</a></p></li>
+<li><p><a class="reference internal" href="#does-the-luna-amount-of-the-new-chain-drop-the-initialization-amount-at-height-1" id="id4">Does the Luna amount of the new chain drop the initialization amount at height 1?</a></p></li>
+<li><p><a class="reference internal" href="#where-can-i-find-out-more-about-the-airdrop" id="id5">Where can I find out more about the airdrop?</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#vesting" id="id6">Vesting</a></p>
+<ul>
+<li><p><a class="reference internal" href="#how-does-vesting-work" id="id7">How does vesting work?</a></p></li>
+<li><p><a class="reference internal" href="#how-can-i-see-my-luna-that-is-still-locked-in-vesting" id="id8">How can I see my Luna that is still locked in vesting?</a></p></li>
+<li><p><a class="reference internal" href="#is-my-vesting-luna-staked" id="id9">Is my vesting Luna staked?</a></p></li>
+<li><p><a class="reference internal" href="#can-i-redelegate-my-vesting-luna" id="id10">Can I redelegate my vesting Luna?</a></p></li>
+<li><p><a class="reference internal" href="#how-can-i-see-how-much-luna-i-was-airdropped-in-total-including-vesting" id="id11">How can I see how much Luna I was airdropped in total, including vesting?</a></p></li>
+<li><p><a class="reference internal" href="#how-can-i-calculate-my-original-vesting" id="id12">How can I calculate my original vesting?</a></p></li>
+<li><p><a class="reference internal" href="#how-can-i-view-my-spendable-unlocked-luna" id="id13">How can I view my spendable (unlocked) Luna?</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#txs" id="id14">Txs</a></p>
+<ul>
+<li><p><a class="reference internal" href="#is-there-any-change-in-the-offline-transaction-construction-function" id="id15">Is there any change in the offline transaction construction function?</a></p></li>
+<li><p><a class="reference internal" href="#is-there-any-change-to-the-broadcast-interface-for-terra-classic-or-terra" id="id16">Is there any change to the broadcast interface for Terra Classic or Terra?</a></p></li>
+<li><p><a class="reference internal" href="#has-the-transaction-structure-changed" id="id17">Has the transaction structure changed?</a></p></li>
+<li><p><a class="reference internal" href="#is-there-any-change-in-the-calculation-of-the-handling-fee" id="id18">Is there any change in the calculation of the handling fee?</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#addresses-and-accounts" id="id19">Addresses and accounts</a></p>
+<ul>
+<li><p><a class="reference internal" href="#are-the-chain-address-formats-the-same-for-both-chains" id="id20">Are the chain address formats the same for both chains?</a></p></li>
+<li><p><a class="reference internal" href="#are-there-any-changes-to-the-address-formats" id="id21">Are there any changes to the address formats?</a></p></li>
+<li><p><a class="reference internal" href="#do-account-numbers-need-to-be-reset" id="id22">Do account numbers need to be reset?</a></p></li>
+<li><p><a class="reference internal" href="#what-are-the-contract-addresses-for-luna-and-lunc" id="id23">What are the contract addresses for LUNA and LUNC?</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#block-and-heights" id="id24">Block and heights</a></p>
+<ul>
+<li><p><a class="reference internal" href="#is-there-any-change-in-the-block-structure" id="id25">Is there any change in the block structure?</a></p></li>
+<li><p><a class="reference internal" href="#what-block-height-does-the-terra-classic-chain-start-at" id="id26">What block height does the terra classic chain start at?</a></p></li>
+<li><p><a class="reference internal" href="#what-height-does-the-new-chain-start-at" id="id27">What height does the new chain start at?</a></p></li>
+<li><p><a class="reference internal" href="#can-you-clarify-the-differences-between-the-block-and-transaction-parsing-logics-of-classic-vs-new-luna" id="id28">Can you clarify the differences between the block and transaction parsing logics of classic vs new Luna?</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#upgrades" id="id29">Upgrades</a></p>
+<ul>
+<li><p><a class="reference internal" href="#does-terra-js-need-to-be-upgraded" id="id30">Does Terra.js need to be upgraded?</a></p></li>
+<li><p><a class="reference internal" href="#are-there-any-changes-to-the-api-interface" id="id31">Are there any changes to the API interface?</a></p></li>
+<li><p><a class="reference internal" href="#will-there-be-an-lunc-node-upgrade-release-on-05-27" id="id32">Will there be an LUNC node upgrade release on 05/27?</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#luna-and-tokens" id="id33">Luna and tokens</a></p>
+<ul>
+<li><p><a class="reference internal" href="#can-the-initial-luna-balance-of-an-address-be-resolved-through-the-genesis-file" id="id34">Can the initial Luna balance of an address be resolved through the genesis file?</a></p></li>
+<li><p><a class="reference internal" href="#will-the-new-chain-use-micro-denominations" id="id35">Will The new chain use micro-denominations?</a></p></li>
+<li><p><a class="reference internal" href="#will-the-new-chain-still-support-other-tokens-such-as-anc" id="id36">Will the new chain still support other tokens, such as ANC?</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#multisig" id="id37">Multisig</a></p>
+<ul>
+<li><p><a class="reference internal" href="#i-want-to-ignore-multisig-txs-could-you-share-a-mainnet-example-of-this" id="id38">I want to ignore multisig txs, could you share a mainnet example of this?</a></p></li>
+<li><p><a class="reference internal" href="#how-do-i-get-the-threshold-number-of-signatures" id="id39">How do I get the “threshold number of signatures”?</a></p></li>
+<li><p><a class="reference internal" href="#is-the-type-of-multisig-tx-always-bank-msgsend" id="id40">Is the “&#64;type” of multisig tx always “bank/MsgSend”?</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="airdrop">
+<h2><a class="toc-backref" href="#id1">Airdrop</a><a class="headerlink" href="#airdrop" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="is-bonded-luna-included-in-the-post-attack-luna-snapshot">
+<h3><a class="toc-backref" href="#id2">Is bonded LUNA included in the post-attack LUNA snapshot?</a><a class="headerlink" href="#is-bonded-luna-included-in-the-post-attack-luna-snapshot" title="Permalink to this headline">¶</a></h3>
+<p>Yes, along with liquid staking derivatives.</p>
+</div>
+<div class="section" id="what-are-the-heights-for-calculating-the-airdrop">
+<h3><a class="toc-backref" href="#id3">What are the heights for calculating the airdrop?</a><a class="headerlink" href="#what-are-the-heights-for-calculating-the-airdrop" title="Permalink to this headline">¶</a></h3>
+<p>The pre-attack snapshot is taken at block 7544910 of the Terra Classic chain.</p>
+<p>The post-attack snapshot will be taken at Terra Classic block 7790000. It is recommended that you take your internal exchange snapshot at that height.</p>
+</div>
+<div class="section" id="does-the-luna-amount-of-the-new-chain-drop-the-initialization-amount-at-height-1">
+<h3><a class="toc-backref" href="#id4">Does the Luna amount of the new chain drop the initialization amount at height 1?</a><a class="headerlink" href="#does-the-luna-amount-of-the-new-chain-drop-the-initialization-amount-at-height-1" title="Permalink to this headline">¶</a></h3>
+<p>Yes, the airdrop will be at block height <code class="docutils literal notranslate"><span class="pre">1</span></code> of the new chain.</p>
+</div>
+<div class="section" id="where-can-i-find-out-more-about-the-airdrop">
+<h3><a class="toc-backref" href="#id5">Where can I find out more about the airdrop?</a><a class="headerlink" href="#where-can-i-find-out-more-about-the-airdrop" title="Permalink to this headline">¶</a></h3>
+<p>Visit the <a class="reference internal" href="../learn/protocol.html#luna-airdrop-distribution"><span class="std std-doc">airdrop section of the About Terra page</span></a>.</p>
+</div>
+</div>
+<div class="section" id="vesting">
+<h2><a class="toc-backref" href="#id6">Vesting</a><a class="headerlink" href="#vesting" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="how-does-vesting-work">
+<h3><a class="toc-backref" href="#id7">How does vesting work?</a><a class="headerlink" href="#how-does-vesting-work" title="Permalink to this headline">¶</a></h3>
+<p>For general information on vesting, visit the <a class="reference internal" href="../learn/protocol.html#vesting"><span class="std std-doc">vesting overview</span></a>.</p>
+<p>For a more in-depth look at vesting, visit the <a class="reference internal" href="../develop/vesting.html"><span class="doc std std-doc">vesting page</span></a>.</p>
+</div>
+<div class="section" id="how-can-i-see-my-luna-that-is-still-locked-in-vesting">
+<h3><a class="toc-backref" href="#id8">How can I see my Luna that is still locked in vesting?</a><a class="headerlink" href="#how-can-i-see-my-luna-that-is-still-locked-in-vesting" title="Permalink to this headline">¶</a></h3>
+<p>You can view your vesting Luna in Terra Station by using the <a class="reference internal" href="../learn/terra-station/vesting.html"><span class="doc std std-doc">Vesting guide</span></a>.</p>
+</div>
+<div class="section" id="is-my-vesting-luna-staked">
+<h3><a class="toc-backref" href="#id9">Is my vesting Luna staked?</a><a class="headerlink" href="#is-my-vesting-luna-staked" title="Permalink to this headline">¶</a></h3>
+<p>All vesting Luna was <a class="reference internal" href="../learn/glossary.html#staking"><span class="std std-doc">staked</span></a> at genesis.</p>
+</div>
+<div class="section" id="can-i-redelegate-my-vesting-luna">
+<h3><a class="toc-backref" href="#id10">Can I redelegate my vesting Luna?</a><a class="headerlink" href="#can-i-redelegate-my-vesting-luna" title="Permalink to this headline">¶</a></h3>
+<p>Even though Luna that is vesting is locked and can’t be freely traded, it can still be staked to generate <a class="reference internal" href="../learn/protocol.html#rewards"><span class="std std-doc">staking rewards</span></a>. Users are free to <a class="reference internal" href="../learn/protocol.html#redelegation"><span class="std std-doc">delegate, redelegate, or undelegate</span></a> their vesting Luna as they see fit.</p>
+</div>
+<div class="section" id="how-can-i-see-how-much-luna-i-was-airdropped-in-total-including-vesting">
+<h3><a class="toc-backref" href="#id11">How can I see how much Luna I was airdropped in total, including vesting?</a><a class="headerlink" href="#how-can-i-see-how-much-luna-i-was-airdropped-in-total-including-vesting" title="Permalink to this headline">¶</a></h3>
+<p>You can query your account to calculate your total airdrop:</p>
+<div class="math notranslate nohighlight">
+\[ Unlocked\:at\:genesis + Original\:vesting\:at\:genesis = Total\:airdrop\:amount \]</div>
+<p>You can see your unlocked and vesting Luna amounts by searching your address in <a class="reference external" href="https://finder.terra.money">Terra Finder</a>.</p>
+<p>You can also view your vesting Luna buy querying the LCD using the following URL format:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">phoenix</span><span class="o">-</span><span class="n">lcd</span><span class="o">.</span><span class="n">terra</span><span class="o">.</span><span class="n">dev</span><span class="o">/</span><span class="n">cosmos</span><span class="o">/</span><span class="n">auth</span><span class="o">/</span><span class="n">v1beta1</span><span class="o">/</span><span class="n">accounts</span><span class="o">/&lt;</span><span class="n">insert</span><span class="o">-</span><span class="n">your</span><span class="o">-</span><span class="n">Terra</span><span class="o">-</span><span class="n">address</span><span class="o">-</span><span class="n">here</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>For example, for this address: <a class="reference external" href="https://phoenix-lcd.terra.dev/cosmos/auth/v1beta1/accounts/terra18mkcha20h5psry3nn9jlsdkz66cm0u9c7p5dmv">https://phoenix-lcd.terra.dev/cosmos/auth/v1beta1/accounts/terra18mkcha20h5psry3nn9jlsdkz66cm0u9c7p5dmv</a></p>
+<ul class="simple">
+<li><p>The delegated_vesting is <code class="docutils literal notranslate"><span class="pre">375063631513</span></code></p></li>
+<li><p>The unlocked bank balance is <code class="docutils literal notranslate"><span class="pre">160741556363</span></code></p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">375063631513</span> <span class="o">+</span> <span class="mi">160741556363</span>  <span class="o">=</span> <span class="mi">535805187876</span> <span class="p">(</span><span class="n">The</span> <span class="n">original</span> <span class="n">total</span> <span class="n">airdrop</span> <span class="n">amount</span><span class="o">.</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="how-can-i-calculate-my-original-vesting">
+<h3><a class="toc-backref" href="#id12">How can I calculate my original vesting?</a><a class="headerlink" href="#how-can-i-calculate-my-original-vesting" title="Permalink to this headline">¶</a></h3>
+<p>You can query your account to calculate your original vesting:</p>
+<div class="math notranslate nohighlight">
+\[ Total\:airdrop\:amount - Unlocked\:at\:genesis = Original\:vesting\:at\:genesis\]</div>
+<p>You can see your unlocked and vesting Luna amounts by searching your address in <a class="reference external" href="https://finder.terra.money">Terra Finder</a>.</p>
+</div>
+<div class="section" id="how-can-i-view-my-spendable-unlocked-luna">
+<h3><a class="toc-backref" href="#id13">How can I view my spendable (unlocked) Luna?</a><a class="headerlink" href="#how-can-i-view-my-spendable-unlocked-luna" title="Permalink to this headline">¶</a></h3>
+<p>Use the following LCD query structure to view your account’s spendable balance:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">phoenix</span><span class="o">-</span><span class="n">lcd</span><span class="o">.</span><span class="n">terra</span><span class="o">.</span><span class="n">dev</span><span class="o">/</span><span class="n">cosmos</span><span class="o">/</span><span class="n">bank</span><span class="o">/</span><span class="n">v1beta1</span><span class="o">/</span><span class="n">spendable_balances</span><span class="o">/&lt;</span><span class="n">insert</span><span class="o">-</span><span class="n">your</span><span class="o">-</span><span class="n">terra</span><span class="o">-</span><span class="n">account</span><span class="o">-</span><span class="n">address</span><span class="o">-</span><span class="n">here</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>You can also view your vesting Luna buy querying the LCD using the following URL format:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">phoenix</span><span class="o">-</span><span class="n">lcd</span><span class="o">.</span><span class="n">terra</span><span class="o">.</span><span class="n">dev</span><span class="o">/</span><span class="n">cosmos</span><span class="o">/</span><span class="n">auth</span><span class="o">/</span><span class="n">v1beta1</span><span class="o">/</span><span class="n">accounts</span><span class="o">/&lt;</span><span class="n">insert</span><span class="o">-</span><span class="n">your</span><span class="o">-</span><span class="n">Terra</span><span class="o">-</span><span class="n">address</span><span class="o">-</span><span class="n">here</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="txs">
+<h2><a class="toc-backref" href="#id14">Txs</a><a class="headerlink" href="#txs" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="is-there-any-change-in-the-offline-transaction-construction-function">
+<h3><a class="toc-backref" href="#id15">Is there any change in the offline transaction construction function?</a><a class="headerlink" href="#is-there-any-change-in-the-offline-transaction-construction-function" title="Permalink to this headline">¶</a></h3>
+<p>No changes. if you are using the old tx format, the only thing you need to do is change the “bank/MsgSend” to “cosmos-sdk/MsgSend”.</p>
+</div>
+<div class="section" id="is-there-any-change-to-the-broadcast-interface-for-terra-classic-or-terra">
+<h3><a class="toc-backref" href="#id16">Is there any change to the broadcast interface for Terra Classic or Terra?</a><a class="headerlink" href="#is-there-any-change-to-the-broadcast-interface-for-terra-classic-or-terra" title="Permalink to this headline">¶</a></h3>
+<p>No, the broadcast interface is the same.</p>
+</div>
+<div class="section" id="has-the-transaction-structure-changed">
+<h3><a class="toc-backref" href="#id17">Has the transaction structure changed?</a><a class="headerlink" href="#has-the-transaction-structure-changed" title="Permalink to this headline">¶</a></h3>
+<p>No, the transaction structure remains unchanged.</p>
+</div>
+<div class="section" id="is-there-any-change-in-the-calculation-of-the-handling-fee">
+<h3><a class="toc-backref" href="#id18">Is there any change in the calculation of the handling fee?</a><a class="headerlink" href="#is-there-any-change-in-the-calculation-of-the-handling-fee" title="Permalink to this headline">¶</a></h3>
+<p>No, but you may need to check the new gas prices.</p>
+</div>
+</div>
+<div class="section" id="addresses-and-accounts">
+<h2><a class="toc-backref" href="#id19">Addresses and accounts</a><a class="headerlink" href="#addresses-and-accounts" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="are-the-chain-address-formats-the-same-for-both-chains">
+<h3><a class="toc-backref" href="#id20">Are the chain address formats the same for both chains?</a><a class="headerlink" href="#are-the-chain-address-formats-the-same-for-both-chains" title="Permalink to this headline">¶</a></h3>
+<p>Yes, the address format is the same. The same address will be generated from the same seed on both chains.</p>
+</div>
+<div class="section" id="are-there-any-changes-to-the-address-formats">
+<h3><a class="toc-backref" href="#id21">Are there any changes to the address formats?</a><a class="headerlink" href="#are-there-any-changes-to-the-address-formats" title="Permalink to this headline">¶</a></h3>
+<p>Yes, Wasm tx types need to be <code class="docutils literal notranslate"><span class="pre">cosmwasm.wasm.v1.MsgExecuteContract</span></code>.</p>
+<p>Wasm contract address lengths have changed. For more info, please check here: <a class="reference external" href="https://github.com/terra-money/core/blob/main/WASM_MIGRATE.md#contract-address">https://github.com/terra-money/core/blob/main/WASM_MIGRATE.md#contract-address</a>.</p>
+</div>
+<div class="section" id="do-account-numbers-need-to-be-reset">
+<h3><a class="toc-backref" href="#id22">Do account numbers need to be reset?</a><a class="headerlink" href="#do-account-numbers-need-to-be-reset" title="Permalink to this headline">¶</a></h3>
+<p>Yes, they do.</p>
+</div>
+<div class="section" id="what-are-the-contract-addresses-for-luna-and-lunc">
+<h3><a class="toc-backref" href="#id23">What are the contract addresses for LUNA and LUNC?</a><a class="headerlink" href="#what-are-the-contract-addresses-for-luna-and-lunc" title="Permalink to this headline">¶</a></h3>
+<p>Neither LUNA nor LUNC will have contract addresses because they are both native.</p>
+</div>
+</div>
+<div class="section" id="block-and-heights">
+<h2><a class="toc-backref" href="#id24">Block and heights</a><a class="headerlink" href="#block-and-heights" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="is-there-any-change-in-the-block-structure">
+<h3><a class="toc-backref" href="#id25">Is there any change in the block structure?</a><a class="headerlink" href="#is-there-any-change-in-the-block-structure" title="Permalink to this headline">¶</a></h3>
+<p>No, there are no changes to the block structure.</p>
+</div>
+<div class="section" id="what-block-height-does-the-terra-classic-chain-start-at">
+<h3><a class="toc-backref" href="#id26">What block height does the terra classic chain start at?</a><a class="headerlink" href="#what-block-height-does-the-terra-classic-chain-start-at" title="Permalink to this headline">¶</a></h3>
+<p>Terra classic is the same currently active original chain. The block height will be left unaltered.</p>
+</div>
+<div class="section" id="what-height-does-the-new-chain-start-at">
+<h3><a class="toc-backref" href="#id27">What height does the new chain start at?</a><a class="headerlink" href="#what-height-does-the-new-chain-start-at" title="Permalink to this headline">¶</a></h3>
+<p>The new Terra chain will start from a height of <code class="docutils literal notranslate"><span class="pre">1</span></code>.</p>
+</div>
+<div class="section" id="can-you-clarify-the-differences-between-the-block-and-transaction-parsing-logics-of-classic-vs-new-luna">
+<h3><a class="toc-backref" href="#id28">Can you clarify the differences between the block and transaction parsing logics of classic vs new Luna?</a><a class="headerlink" href="#can-you-clarify-the-differences-between-the-block-and-transaction-parsing-logics-of-classic-vs-new-luna" title="Permalink to this headline">¶</a></h3>
+<p>There will be no changes, except that <code class="docutils literal notranslate"><span class="pre">MsgTypes</span></code> will change from <code class="docutils literal notranslate"><span class="pre">terra.wasm.v1beta1.MsgExecuteContract</span></code> to <code class="docutils literal notranslate"><span class="pre">cosmwasm.wasm.v1.MsgExecuteContract</span></code> for the new chain.</p>
+</div>
+</div>
+<div class="section" id="upgrades">
+<h2><a class="toc-backref" href="#id29">Upgrades</a><a class="headerlink" href="#upgrades" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="does-terra-js-need-to-be-upgraded">
+<h3><a class="toc-backref" href="#id30">Does Terra.js need to be upgraded?</a><a class="headerlink" href="#does-terra-js-need-to-be-upgraded" title="Permalink to this headline">¶</a></h3>
+<p>Yes, there will be a new release of Terra.js. However, the interface will not change significantly.
+For more information, see <a class="reference internal" href="../develop/terra-js/terra-classic.html"><span class="doc std std-doc">Using Terra Classic</span></a>.</p>
+</div>
+<div class="section" id="are-there-any-changes-to-the-api-interface">
+<h3><a class="toc-backref" href="#id31">Are there any changes to the API interface?</a><a class="headerlink" href="#are-there-any-changes-to-the-api-interface" title="Permalink to this headline">¶</a></h3>
+<p>No, there will be no change to the API interface.</p>
+</div>
+<div class="section" id="will-there-be-an-lunc-node-upgrade-release-on-05-27">
+<h3><a class="toc-backref" href="#id32">Will there be an LUNC node upgrade release on 05/27?</a><a class="headerlink" href="#will-there-be-an-lunc-node-upgrade-release-on-05-27" title="Permalink to this headline">¶</a></h3>
+<p>There will be no upgrades released for the Luna Classic (LUNC) node. Only the new 2.0 chain will have a node release.</p>
+</div>
+</div>
+<div class="section" id="luna-and-tokens">
+<h2><a class="toc-backref" href="#id33">Luna and tokens</a><a class="headerlink" href="#luna-and-tokens" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="can-the-initial-luna-balance-of-an-address-be-resolved-through-the-genesis-file">
+<h3><a class="toc-backref" href="#id34">Can the initial Luna balance of an address be resolved through the genesis file?</a><a class="headerlink" href="#can-the-initial-luna-balance-of-an-address-be-resolved-through-the-genesis-file" title="Permalink to this headline">¶</a></h3>
+<p>Yes. Use the following lcd endpoint with your address:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>/cosmos/bank/v1beta1/balances/<span class="o">{</span>address<span class="o">}</span>
+</pre></div>
+</div>
+<p>You can also check the genesis file. See this example for more info: <a class="reference external" href="https://github.com/terra-money/testnet/tree/main/pisco-1">https://github.com/terra-money/testnet/tree/main/pisco-1</a></p>
+</div>
+<div class="section" id="will-the-new-chain-use-micro-denominations">
+<h3><a class="toc-backref" href="#id35">Will The new chain use micro-denominations?</a><a class="headerlink" href="#will-the-new-chain-use-micro-denominations" title="Permalink to this headline">¶</a></h3>
+<p>Yes, the new chain will use micro-denominations, such as <code class="docutils literal notranslate"><span class="pre">uluna</span></code>.</p>
+</div>
+<div class="section" id="will-the-new-chain-still-support-other-tokens-such-as-anc">
+<h3><a class="toc-backref" href="#id36">Will the new chain still support other tokens, such as ANC?</a><a class="headerlink" href="#will-the-new-chain-still-support-other-tokens-such-as-anc" title="Permalink to this headline">¶</a></h3>
+<p>It is up to each team. Each token team will have to relaunch the token to the new chain with a snapshot.</p>
+</div>
+</div>
+<div class="section" id="multisig">
+<h2><a class="toc-backref" href="#id37">Multisig</a><a class="headerlink" href="#multisig" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="i-want-to-ignore-multisig-txs-could-you-share-a-mainnet-example-of-this">
+<h3><a class="toc-backref" href="#id38">I want to ignore multisig txs, could you share a mainnet example of this?</a><a class="headerlink" href="#i-want-to-ignore-multisig-txs-could-you-share-a-mainnet-example-of-this" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>New format:
+<a class="reference external" href="https://phoenix-lcd.terra.dev/cosmos/tx/v1beta1/txs/136825A738053AC6B7E8D03FB1C43696BA560AD9A8D5DB8AE49C55642CE64310">https://phoenix-lcd.terra.dev/cosmos/tx/v1beta1/txs/136825A738053AC6B7E8D03FB1C43696BA560AD9A8D5DB8AE49C55642CE64310</a></p></li>
+<li><p>Old format:
+<a class="reference external" href="https://phoenix-lcd.terra.dev/txs/136825A738053AC6B7E8D03FB1C43696BA560AD9A8D5DB8AE49C55642CE64310">https://phoenix-lcd.terra.dev/txs/136825A738053AC6B7E8D03FB1C43696BA560AD9A8D5DB8AE49C55642CE64310</a></p></li>
+</ul>
+<p>Please visit <a class="reference external" href="https://docs.terra.money/docs/develop/guides/sign-with-multisig.html">https://docs.terra.money/docs/develop/guides/sign-with-multisig.html</a> for more info.</p>
+</div>
+<div class="section" id="how-do-i-get-the-threshold-number-of-signatures">
+<h3><a class="toc-backref" href="#id39">How do I get the “threshold number of signatures”?</a><a class="headerlink" href="#how-do-i-get-the-threshold-number-of-signatures" title="Permalink to this headline">¶</a></h3>
+<p>Use the following: <a class="reference external" href="https://phoenix-lcd.terra.dev/cosmos/auth/v1beta1/accounts/terra14g48gms0zr29wufgyvz5smh8enaes9dh3rxxjh">https://phoenix-lcd.terra.dev/cosmos/auth/v1beta1/accounts/terra14g48gms0zr29wufgyvz5smh8enaes9dh3rxxjh</a></p>
+</div>
+<div class="section" id="is-the-type-of-multisig-tx-always-bank-msgsend">
+<h3><a class="toc-backref" href="#id40">Is the “&#64;type” of multisig tx always “bank/MsgSend”?</a><a class="headerlink" href="#is-the-type-of-multisig-tx-always-bank-msgsend" title="Permalink to this headline">¶</a></h3>
+<p>Yes. The only difference is the signature format.</p>
+</div>
+</div>
+</div>
+
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="exchange-migration.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Exchange migration guide</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="migrating-to-terra2.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">dApp migration guide</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <script>
+  const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+  const currentTheme = localStorage.getItem("theme");
+
+  const setDarkTheme = () => {
+    document.body.classList.remove('light-theme');
+    document.body.classList.add("dark-theme");
+    localStorage.setItem("theme", "dark-theme");
+  }
+
+  const setLightTheme = () => {
+    document.body.classList.remove('dark-theme');
+    document.body.classList.add("light-theme");
+    localStorage.setItem("theme", "light-theme");
+  }
+
+  if (currentTheme === null) {
+    if (prefersDarkScheme.matches) {
+      setDarkTheme();
+    } else if (!prefersDarkScheme.matches) {
+      setLightTheme();
+    }
+  } else {
+    if (currentTheme === "dark-theme") {
+      setDarkTheme();
+    } else if (currentTheme === "light-theme") {
+      setLightTheme();
+    }
+  }
+  </script>
+<footer class="footer">
+  <p>
+    
+
+    <div class="extra_footer container">
+      <div class="row">
+
+        <div class="col">
+
+          <div class="logos">
+            <a href="https://discord.com/invite/sTmERSFnYW" rel="noopener" target="_blank"><img src="/discord.svg" alt="link to Terra discord room"></a>&nbsp;
+            <a href="https://medium.com/terra-money" rel="noopener" target="_blank"><img src="/medium.svg" alt="link to Terra medium"></a>&nbsp;
+            <a href="https://twitter.com/terra_money" rel="noopener" target="_blank"><img src="/twitter.svg" alt="link to Terra twitter"></a>&nbsp;
+            <a href="https://www.youtube.com/channel/UCoV1RXZ9ZBGcuu_PMTTlM0g" rel="noopener" target="_blank"><img src="/icon_youtube.png" alt="link to Terra youtube"></a>&nbsp;
+            <a href="https://t.me/terra_announcements" rel="noopener" target="_blank"><img src="/icon_telegram.png" alt="link to Terra telegram room"></a>
+            <br/><br/>
+          </div>
+
+        </div>
+
+        <div class="col-md-auto">
+
+          <a href="https://www.terra.money/" >terra.money</a> <br/>
+          <a href="mailto:general@terra.money" >Contact</a> <br/>
+          <a href="https://jobs.lever.co/terra">Careers</a> <br/>
+          <br/>
+
+        </div>
+
+        <div class="col-md-auto">
+
+          <a href="https://github.com/terra-money/" >Github</a> <br/>
+          <a href="https://certik.org/projects/terra" >Security Audit</a> <br/>
+          <a href="https://agora.terra.money/" >Agora forum</a> <br/>
+          <br/>
+
+        </div>
+
+        <div class="col">
+          <a href="https://finder.terra.money/" >Terra Finder</a> <br/>
+          <a href="https://station.terra.money/" >Terra Station</a> <br/>
+          <a href="https://status.terra.money/" >Status</a> <br/>
+          <br/>
+
+        </div>
+
+      </div>
+    </div>
+
+
+  </p>
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://terradocs.matomo.cloud/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src='//cdn.matomo.cloud/terradocs.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
